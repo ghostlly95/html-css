@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(150, 243, 207, 0.842);
+}
+a::after{
+  content: "🔗";
+}
+
+.cabecalho {
+  background-image: linear-gradient(to top, #2b754d, #11f578);
+  text-align: center;
+  padding: 15px 0;
+}
+
+.titlle {
+  color: white;
+  font-weight: bold;
+  margin: 0;
+  text-shadow: 3px 3px 4px black;
+}
+
+.sub-titlle {
+  color: white;
+  font-size: 16px;
+  max-width: 320px;
+  margin: 0 auto 30px;
+  margin-top: 30px;
+}
+ span {
+  margin-left: 15px;
+  cursor: pointer;
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  margin-bottom: none;
+  
+}
+span:hover{
+  background-color: #2b754d;
+  text-decoration: underline;
+
+}
+.menu{
+  display: flex;
+  margin-bottom: none;
+}
+
+main {
+  max-width: 700px;
+  margin: auto;
+  padding: 15px;
+  background-color: white;
+  box-shadow: 0px 0px 10px black;
+  border-radius: 0px 0px 10px 10px ;
+  text-indent: 30px;
+  line-height: 25px;
+}
+
+.titlle-subject {
+  font-family: "idroid.otf";
+  color: rgba(30, 105, 30, 0.884);
+  margin-top: 0;
+}
+.link{
+  color: rgb(0, 0, 0);
+  padding: 3px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.h2 {
+  color: rgba(23, 80, 23, 0.884);
+  background-image: linear-gradient(to right, #c3ffdabe, transparent);
+  padding: 5px;
+}
+
+.dan-droids,
+.irina-blok,
+.bugdroid {
+  max-width: 100%;
+  display: block;
+  margin: 10px auto;
+}
+.video{
+  max-width: 100%;
+  display: block;
+  margin: 10px auto;
+  width: 300px;
+  height: 300px;
+  margin-left: 160px;
+}
+
+.sec-video {
+  background-color: #91ddb59c;
+  margin-bottom: 25px;
+  padding: 200px;
+  position: relative;
+}
+.sec-video > iframe{
+position: absolute;
+top: 5%;
+left: 5%;
+width: 90%;
+height: 90%;
+}
+
+.last-sec {
+  color: black;
+  background-color: #abe2c4;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.extra {
+  color: white;
+  background-color: #42dd88a9;
+  margin-top: 0px;
+  margin: -5px -5px 0px -5px;
+  border-radius: 10px 10px 0px 0px;
+  padding: 5px;
+}
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 7px;
+}
+ul{
+  list-style:inside;
+  columns: 2;
+  list-style-type: "✓";
+}

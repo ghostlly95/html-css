@@ -1,0 +1,25 @@
+
+
+body{
+    background-color: rgb(250, 194, 247);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+h1{
+    color: rgb(17, 17, 17);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    background-color: rgb(180, 137, 221);
+}
+h2{
+    color: rgba(247, 5, 5, 0.603);
+    background-color: rgba(240, 154, 238, 0.829);
+}
+p{
+    text-align: justify;
+    color: rgb(14, 13, 13);   
+}
+button{
+    background-color: crimson;
+    color: black;    
+}
